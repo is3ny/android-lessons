@@ -1,0 +1,3 @@
+rootProject.name='Android Lessons'
+include ':app'
+include ':p0031firstlesson'
