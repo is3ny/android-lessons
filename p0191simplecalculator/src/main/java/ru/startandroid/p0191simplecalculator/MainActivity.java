@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etNum1 = (EditText) findViewById(R.id.etNum1);
-        etNum2 = (EditText) findViewById(R.id.etNum2);
+        etNum1 = findViewById(R.id.etNum1);
+        etNum2 = findViewById(R.id.etNum2);
 
-        tvRes = (TextView) findViewById(R.id.tvRes);
+        tvRes = findViewById(R.id.tvRes);
     }
 
     public void onClick(View v) {
